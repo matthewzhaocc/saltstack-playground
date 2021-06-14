@@ -1,2 +1,14 @@
-# saltstack-playground
-a CDK deployment that setup a salt master and agent
+# Welcome to your CDK TypeScript project!
+
+This is a SaltStack single node deployment with master + minion for labbing
+
+The `cdk.json` file tells the CDK Toolkit how to execute your app.
+
+## Useful commands
+
+ * `npm run build`   compile typescript to js
+ * `npm run watch`   watch for changes and compile
+ * `npm run test`    perform the jest unit tests
+ * `cdk deploy`      deploy this stack to your default AWS account/region
+ * `cdk diff`        compare deployed stack with current state
+ * `cdk synth`       emits the synthesized CloudFormation template
